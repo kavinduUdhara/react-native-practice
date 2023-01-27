@@ -3,7 +3,8 @@ import { SafeAreaView, Text, Button, StyleSheet, Pressable} from "react-native";
 import { Alert } from 'react-native';
 
 export default function App() {
-  const [data1, data2] = useState('data1');
+  const [data1, Setdata1] = useState('data1');
+  var change_data = 0;
 
   const ui = (
     <SafeAreaView style={styles.container}>
@@ -14,7 +15,7 @@ export default function App() {
   return ui;
 
   function chage_the_text1(text: string){
-    data2('data2');
+    Setdata1('data2');
   }
 }
 
