@@ -3,19 +3,21 @@ import { SafeAreaView, Text, Button, StyleSheet, Pressable} from "react-native";
 import { Alert } from 'react-native';
 
 export default function App() {
-  const [data1, Setdata1] = useState('data1');
+  const [data1, Setdata1] = useState(0);
   var change_data = 0;
 
   const ui = (
     <SafeAreaView style={styles.container}>
       <Text style={styles.text}>{data1}</Text>
-      <Button title="change" onPress={() => chage_the_text1('sucess')}/>
+      <Pressable onLongPress={() => chage_the_text1()}>
+        <Text>Change</Text>
+      </Pressable>
     </SafeAreaView>
   );
   return ui;
 
-  function chage_the_text1(text: string){
-    Setdata1('data2');
+  function chage_the_text1(){
+    Setdata1(data1 +1);
   }
 }
 
