@@ -6,7 +6,7 @@ React Native is a framework for building mobile apps using JavaScript and React,
 
 information provided by chatGPT(open AI)
 
-1. [Introduction to React Native](1-introduction-to-react-native)
+1. [Introduction to React Native](#1-introduction-to-react-native)
 > - Understanding the difference between React and React Native
 > - Setting up the development environment
 > - Building your first React Native app
