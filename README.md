@@ -9,12 +9,12 @@ information provided by chatGPT(open AI)
 1. [Introduction to React Native](#1-introduction-to-react-native)
 > - Understanding the difference between React and React Native ✅
 > - Setting up the development environment ✅
-> - Building your first React Native app ⚒️
+> - Building your first React Native app ✅
 
 2. React Native Components
-> - Understanding the basic components: View, Text, Image, and others
-> - Customizing the appearance of components using styles
-> - Creating and using custom components
+> - Understanding the basic components: View, Text, Image, and others ✅
+> - Customizing the appearance of components using styles ✅
+> - Creating and using custom components ✅
 
 3. JSX in React Native
 > - Understanding JSX and its role in React Native
