@@ -1,4 +1,4 @@
-# react-native-practice01
+# react-native-practice
 
 React Native is a framework for building mobile apps using JavaScript and React, a JavaScript library for building user interfaces. React Native allows developers to build apps for iOS, Android, and other platforms, using the same code base, with native-like performance and appearance. It provides a way to use the power and ease of development of React for building mobile apps, without having to learn platform-specific languages like Swift or Java.
 
@@ -9,12 +9,12 @@ information provided by chatGPT(open AI)
 1. [Introduction to React Native](#1-introduction-to-react-native)
 > - Understanding the difference between React and React Native ✅
 > - Setting up the development environment ✅
-> - Building your first React Native app ⚒️
+> - Building your first React Native app ✅
 
 2. React Native Components
-> - Understanding the basic components: View, Text, Image, and others
-> - Customizing the appearance of components using styles
-> - Creating and using custom components
+> - Understanding the basic components: View, Text, Image, and others ✅
+> - Customizing the appearance of components using styles ✅
+> - Creating and using custom components ✅
 
 3. JSX in React Native
 > - Understanding JSX and its role in React Native
