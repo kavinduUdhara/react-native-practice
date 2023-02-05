@@ -1,4 +1,8 @@
 # week 01
+>shortcuts
+>
+> [1.Exploring building a component](#Exploring-building-a-component)
+>
 ## Exploring building a component
 
 So far, you have learned about different React Native components, including core components, community components and your custom native components. You learned how to build a component from scratch in an earlier video.
