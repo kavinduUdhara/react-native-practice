@@ -118,7 +118,9 @@ my code ([Footer.tsx](https://github.com/kavinduUdhara/react-native-practice/blo
 export default function footer() {
     return(
         <View style={{flex: 1, justifyContent: "flex-end", backgroundColor: 'white'}}>
-            <Text style={{ backgroundColor: '#F4CE14', padding: 5,textAlign: 'center' }}>All rights reserved by Little Lemon, 2022</Text>
+            <Text style={{ backgroundColor: '#F4CE14', padding: 5,textAlign: 'center' }}>
+                All rights reserved by Little Lemon, 2022
+            </Text>
         </View>
     );
 };
@@ -126,13 +128,22 @@ export default function footer() {
 
 the example ([LittleLemonFooter.tsx](https://github.com/kavinduUdhara/react-native-practice/blob/main/coursera-course-meta/components/LittleLemonFooter.tsx)):
 ```tsx
-export default function LittleLemonHeader() {
-    return (
-        <View style={{ flex: 0.15, backgroundColor: '#F4CE14' }}>
-            <Text style={{padding: 30, paddingTop: 40, fontSize: 30, color: 'black', textAlign: 'center'}}>
-                little lemon
-            </Text>
-        </View>
-    );
-};
+export default function LittleLemonFooter() { 
+    return ( 
+        <View 
+            style={{ 
+                backgroundColor: '#F4CE14', 
+                marginBottom: 10, 
+                }}> 
+            <Text 
+            style={{ 
+                fontSize: 18, 
+                color: 'black', 
+                textAlign: 'center', 
+                }}> 
+                All rights reserved by Little Lemon, 2022{' '} 
+                </Text> 
+        </View> 
+    ); 
+    } 
 ```
