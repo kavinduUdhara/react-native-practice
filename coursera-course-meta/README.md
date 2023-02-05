@@ -268,4 +268,68 @@ In this step, you will call the Welcome screen that you created from the App com
 **Hint:** Have you imported all the necessary components for rendering?
 
 ### Conclusion
-By completing this exercise, you will demonstrate your understanding and ability to create screens within your React Native app. You will demonstrate how to use some of the core components in React Native, such as View and Text while building the Welcome screen for Little Lemon. 
+By completing this exercise, you will demonstrate your understanding and ability to create screens within your React Native app. You will demonstrate how to use some of the core components in React Native, such as View and Text while building the Welcome screen for Little Lemon. .
+
+my code:
+```tsx
+export default function() {
+    return(
+        <View
+            style={{
+                justifyContent: 'center',
+                alignItems: 'center',
+            }}>
+            <Text
+                style={{
+                    fontSize: 40,
+                    padding: 40,
+                    textAlign: 'center'
+                }}>
+                Welcome to little lemon
+            </Text>
+            <Text
+                style={{
+                    textAlign: 'center',
+                    fontSize: 22,
+                    padding: 30
+                }}>
+                Little Lemon is a charming neighborhood bistro that serves simple 
+                food and classic cocktails in a lively but casual environment. We would 
+                love to hear more about your experience with us!
+            </Text>
+        </View>
+    );
+};
+```
+
+their example:
+```tsx
+export default function WelcomeScreen() { 
+  return ( 
+    <View style={{ flex: 1 }}> 
+      <Text 
+        style={{ 
+          padding: 40, 
+          fontSize: 30, 
+          color: '#EDEFEE', 
+          textAlign: 'center', 
+        }}> 
+        Welcome to Little Lemon 
+      </Text> 
+      <Text 
+        style={{ 
+          fontSize: 24, 
+          padding: 20, 
+          marginVertical: 8, 
+          color: '#EDEFEE', 
+          textAlign: 'center', 
+        }}> 
+        Little Lemon is a charming neighborhood bistro that serves simple food 
+        and classic cocktails in a lively but casual environment. We would   love 
+        to hear your experience with us! 
+      </Text> 
+    </View> 
+  ); 
+} 
+} 
+```
