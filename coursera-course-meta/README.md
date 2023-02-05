@@ -75,6 +75,8 @@ So far, you have learned what React Native components are and how to build a sim
 
 The Little Lemon app has a header component at the top that reads Little Lemon. However, you have also been asked to create a footer component for the app. You will use the Text and View components from React Native to achieve this. These components will then display the copyright information on all screens and appear at the very bottom of the screen, as illustrated in the image below:
 
+<img width="195" alt="m_QthiwGR_GybLQdIQeg-w_ed1e770f94264c348f017bae71bebba1_5134-Your-fist-component" src="https://user-images.githubusercontent.com/88233364/216807345-5917cb5d-896b-4db8-8740-fd01257f2a36.png">
+
 ### Starter Code
 
 Use the code below and build upon it to complete this exercise. 
@@ -106,3 +108,7 @@ In the final step, you will import the footer component and render it from the a
 ### Conclusion 
 
 By completing this exercise, you will demonstrate your understanding and ability to create reusable React components in React Native apps. You have shown how to use some of the core components in React Native, such as `View` and `Text`, while building the React component for the footer.           
+
+my output:
+
+<img width="195" alt="m_QthiwGR_GybLQdIQeg-w_ed1e770f94264c348f017bae71bebba1_5134-Your-fist-component" src="https://user-images.githubusercontent.com/88233364/216807547-57b24b5c-e8ad-4689-a3f7-d5f8531a0441.jpg">
