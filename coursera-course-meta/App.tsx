@@ -1,5 +1,5 @@
 import React from 'react';
-import MyComponent from './app-props-01';
+import MyComponent from './app-01';
 
 const App = () => {
   return (
