@@ -2,6 +2,7 @@ import * as React from "react";
 import { View } from "react-native";
 
 import LittleLemonHeader from "./components/LittleLemonHeader";
+import Footer from "./components/Footer";
 
 const App = ()=> {
     return(
@@ -11,6 +12,7 @@ const App = ()=> {
                 backgroundColor: '#495E57',
             }}>
             <LittleLemonHeader />
+            <Footer />
         </View>
     );
 };
