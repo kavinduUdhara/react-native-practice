@@ -112,3 +112,105 @@ By completing this exercise, you will demonstrate your understanding and ability
 my output:
 
 <img width="195" alt="m_QthiwGR_GybLQdIQeg-w_ed1e770f94264c348f017bae71bebba1_5134-Your-fist-component" src="https://user-images.githubusercontent.com/88233364/216807547-57b24b5c-e8ad-4689-a3f7-d5f8531a0441.jpg">
+
+my code ([Footer.tsx](https://github.com/kavinduUdhara/react-native-practice/blob/main/coursera-course-meta/components/Footer.tsx)):
+```tsx
+export default function footer() {
+    return(
+        <View style={{flex: 1, justifyContent: "flex-end", backgroundColor: 'white'}}>
+            <Text style={{ backgroundColor: '#F4CE14', padding: 5,textAlign: 'center' }}>
+                All rights reserved by Little Lemon, 2022
+            </Text>
+        </View>
+    );
+};
+```
+
+the example ([LittleLemonFooter.tsx](https://github.com/kavinduUdhara/react-native-practice/blob/main/coursera-course-meta/components/LittleLemonFooter.tsx)):
+```tsx
+export default function LittleLemonFooter() { 
+    return ( 
+        <View 
+            style={{ 
+                backgroundColor: '#F4CE14', 
+                marginBottom: 10, 
+                }}> 
+            <Text 
+            style={{ 
+                fontSize: 18, 
+                color: 'black', 
+                textAlign: 'center', 
+                }}> 
+                All rights reserved by Little Lemon, 2022{' '} 
+                </Text> 
+        </View> 
+    ); 
+    } 
+```
+
+
+## Explore the View and Text Components
+
+In an earlier video, you learned how to use the `View` and `Text` components which are the essential core components of React Native. 
+
+This reading will explore the code you can write to build the `LittleLemonHeader` component using the `View` and `Text` component.
+
+### Build a Header with the View and Text Components
+First, you will build the reusable header component. Keep in mind that you can call this custom component anything you want, but in this example it will be named `LittleLemonHeader`. This component uses both the `View` and the `Text` components.
+
+### LittleLemonHeader.js
+```tsx
+import * as React from 'react';
+import { View, Text } from 'react-native';
+
+export default function LittleLemonHeader() {
+  return (
+    <View style={{ flex: 0.2, backgroundColor: '#F4CE14' }}>
+      <Text
+        style={{ padding: 40, fontSize: 30, color: 'black' }}
+        numberOfLines={3}>
+        Welcome
+        <Text style={{ fontWeight: 'bold' }}> Little Lemon</Text>     {' '}
+      </Text>
+    </View>
+  );
+}
+
+```
+
+The component renders a parent `View`, which has been given a background color and a flex property of `0.2`. This means that the header component will occupy 20 percent of the total space on the screen. 
+
+Next, you will see a `Text` component that renders the text **Welcome**. Here the `Text` component has been given various styling items — padding of 40 pixels, a font size of 30 and a text color of black. You will also notice another `Text` component **nested within the parent Text component**. The component renders the text **Little Lemon** in bold.
+
+The nested `Text` component inherits all the properties and styling from the parent `Text` component. Notice that the number of visible lines have been set to 3 for the parent `Text` component. 
+
+And that’s it! The Little Lemon header component is complete.
+
+### Importing and Rendering the Header
+
+Next, you will import the `LittleLemonHeader` component that's in the `App.js` file, which is the root file of this application. Once it is imported, you can render it within the parent `View` component, as shown in the solution code.
+
+Here the parent view has a flex property of `1` and a background color.
+And that’s it! The Little Lemon header component is complete.
+
+### App.js
+```tsx
+import * as Reactfrom'react';
+import{ View } from'react-native';
+
+importLittleLemonHeaderfrom'./components/LittleLemonHeader';
+
+exportdefaultfunctionApp() {
+return (
+    <View
+      style={{
+        flex: 1,
+backgroundColor: '#495E57',
+      }}>
+      <LittleLemonHeader />
+    </View>
+  );
+}
+```
+
+In this reading you learned how to use the `View` and `Text` components to build custom components in React Native. Specifically, you utilized these components to make a custom header for the Little Lemon app.
