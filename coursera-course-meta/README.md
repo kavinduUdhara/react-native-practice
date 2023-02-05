@@ -112,3 +112,27 @@ By completing this exercise, you will demonstrate your understanding and ability
 my output:
 
 <img width="195" alt="m_QthiwGR_GybLQdIQeg-w_ed1e770f94264c348f017bae71bebba1_5134-Your-fist-component" src="https://user-images.githubusercontent.com/88233364/216807547-57b24b5c-e8ad-4689-a3f7-d5f8531a0441.jpg">
+
+my code ([Footer.tsx](https://github.com/kavinduUdhara/react-native-practice/blob/main/coursera-course-meta/components/Footer.tsx)):
+```tsx
+export default function footer() {
+    return(
+        <View style={{flex: 1, justifyContent: "flex-end", backgroundColor: 'white'}}>
+            <Text style={{ backgroundColor: '#F4CE14', padding: 5,textAlign: 'center' }}>All rights reserved by Little Lemon, 2022</Text>
+        </View>
+    );
+};
+```
+
+the example ([LittleLemonFooter.tsx](https://github.com/kavinduUdhara/react-native-practice/blob/main/coursera-course-meta/components/LittleLemonFooter.tsx)):
+```tsx
+export default function LittleLemonHeader() {
+    return (
+        <View style={{ flex: 0.15, backgroundColor: '#F4CE14' }}>
+            <Text style={{padding: 30, paddingTop: 40, fontSize: 30, color: 'black', textAlign: 'center'}}>
+                little lemon
+            </Text>
+        </View>
+    );
+};
+```
