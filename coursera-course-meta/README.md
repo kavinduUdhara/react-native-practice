@@ -1,7 +1,10 @@
 # week 01
->shortcuts
+>## shortcuts
 >
-> [1.Exploring building a component](#Exploring-building-a-component)
+> [1. Exploring building a component](#Exploring-building-a-component)
+>
+> [2. Exercise: Your first React Native component](#exercise-your-first-react-native-component)
+>
 >
 ## Exploring building a component
 
