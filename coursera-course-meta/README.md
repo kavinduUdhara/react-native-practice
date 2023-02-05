@@ -240,3 +240,32 @@ Use the code below and build upon it to complete this exercise. The code can be 
 [39kmPeVnRJiP30GQSG6R9A_37e0a69421bc4823b5b139c000fbc0f1_react-native---starter-code.zip](https://github.com/kavinduUdhara/react-native-practice/files/10610939/39kmPeVnRJiP30GQSG6R9A_37e0a69421bc4823b5b139c000fbc0f1_react-native---starter-code.zip)
 
 ### Instructions
+
+**Step 1: Create a Welcome Screen**
+
+Your first step is to create a Welcome screen. Create a file named `WelcomeScreen.js` within your source project folder. This will contain the code to display the welcome text.
+
+The screen should display the following title:
+
+**Welcome to Little Lemon**
+
+Below this title you should have the following subheading:
+
+**Little Lemon is a charming neighborhood bistro that serves simple food and classic cocktails in a lively but casual environment. We would love to hear more about your experience with us!
+
+**Hint:** Think about how to structure this with components. Where should the `Text` component be relative to `View`?
+
+**Step 2: Style Welcome Screen**
+
+The next step is to add styles to your Welcome screen. Don't forget that this is a creative process, so feel free to choose any styles, font sizes and colors that you think suit the screenshot given in the scenario.
+
+**Hint:** You can follow the same styling patterns and colors used so far in the starter code.
+
+**Step 3: Render the Welcome Screen from the App Component
+
+In this step, you will call the Welcome screen that you created from the App component. This ensures that the Welcome screen is rendered on the app.
+
+**Hint:** Have you imported all the necessary components for rendering?
+
+### Conclusion
+By completing this exercise, you will demonstrate your understanding and ability to create screens within your React Native app. You will demonstrate how to use some of the core components in React Native, such as View and Text while building the Welcome screen for Little Lemon. 
