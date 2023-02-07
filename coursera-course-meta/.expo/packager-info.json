@@ -1,9 +1,9 @@
 {
-  "expoServerPort": null,
+  "expoServerPort": 19000,
   "packagerPort": 19000,
   "expoServerNgrokUrl": "https://zf-9tf.anonymous.coursera-course-meta.exp.direct",
   "packagerNgrokUrl": "https://zf-9tf.anonymous.coursera-course-meta.exp.direct",
-  "ngrokPid": 22151,
+  "ngrokPid": 2628,
   "packagerPid": null,
   "webpackServerPort": null
 }

@@ -1,16 +1,15 @@
 import React from "react";
-import { Text, View } from "react-native";
+import { Text, View, ScrollView } from "react-native";
 
 export default function() {
     return(
-        <View
+        <ScrollView
             style={{
-                justifyContent: 'center',
-                alignItems: 'center',
+                flex: 1
             }}>
             <Text
                 style={{
-                    fontSize: 40,
+                    fontSize: 50,
                     padding: 40,
                     textAlign: 'center'
                 }}>
@@ -19,13 +18,13 @@ export default function() {
             <Text
                 style={{
                     textAlign: 'center',
-                    fontSize: 22,
+                    fontSize: 40,
                     padding: 30
                 }}>
                 Little Lemon is a charming neighborhood bistro that serves simple 
                 food and classic cocktails in a lively but casual environment. We would 
                 love to hear more about your experience with us!
             </Text>
-        </View>
+        </ScrollView>
     );
 };
