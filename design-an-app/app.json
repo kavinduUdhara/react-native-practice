@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "native-app2",
-    "slug": "native-app2",
+    "slug": "create-an-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -29,6 +29,12 @@
     },
     "web": {
       "favicon": "./assets/images/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "2155b47c-e05c-4713-b74c-063c19c13c32"
+      }
+    },
+    "owner": "kavinduu"
   }
 }
