@@ -1,4 +1,10 @@
 # week 01
+>## shortcuts
+>
+> [1. Exploring building a component](#Exploring-building-a-component)<br>
+> [2. Exercise: Your first React Native component](#exercise-your-first-react-native-component)<br>
+> [3. explore the view and text components](#explore-the-view-and-text-components)
+>
 ## Exploring building a component
 
 So far, you have learned about different React Native components, including core components, community components and your custom native components. You learned how to build a component from scratch in an earlier video.
@@ -214,3 +220,116 @@ backgroundColor: '#495E57',
 ```
 
 In this reading you learned how to use the `View` and `Text` components to build custom components in React Native. Specifically, you utilized these components to make a custom header for the Little Lemon app.
+
+
+## Exercise: Build a React Native screen
+
+### Overview
+Previously, you were introduced to two core components: `View` and `Text`. If you recall, `View` is the basic building block of the user interface that houses other elements, while `Text` is used to display text on the screen.
+
+In this activity, you will use these components to create a **Welcome screen** for the Little Lemon app. In the process you’ll learn best practices for efficiently building React Native screens in a mobile app.
+
+### Scenario
+The Little Lemon app already has a header and footer component, and now you have been asked to create a **Welcome** screen for the app. This screen will contain a welcome message as demonstrated below:
+
+<img width="195" alt="m_QthiwGR_GybLQdIQeg-w_ed1e770f94264c348f017bae71bebba1_5134-Your-fist-component" src="https://user-images.githubusercontent.com/88233364/216817561-0aacd868-1e1c-4bf8-a6f6-909c2e69cedb.png">
+
+### Starter Code 
+Use the code below and build upon it to complete this exercise. The code can be downloaded from the zipped folder below:
+
+[39kmPeVnRJiP30GQSG6R9A_37e0a69421bc4823b5b139c000fbc0f1_react-native---starter-code.zip](https://github.com/kavinduUdhara/react-native-practice/files/10610939/39kmPeVnRJiP30GQSG6R9A_37e0a69421bc4823b5b139c000fbc0f1_react-native---starter-code.zip)
+
+### Instructions
+
+**Step 1: Create a Welcome Screen**
+
+Your first step is to create a Welcome screen. Create a file named `WelcomeScreen.js` within your source project folder. This will contain the code to display the welcome text.
+
+The screen should display the following title:
+
+**Welcome to Little Lemon**
+
+Below this title you should have the following subheading:
+
+**Little Lemon is a charming neighborhood bistro that serves simple food and classic cocktails in a lively but casual environment. We would love to hear more about your experience with us!
+
+**Hint:** Think about how to structure this with components. Where should the `Text` component be relative to `View`?
+
+**Step 2: Style Welcome Screen**
+
+The next step is to add styles to your Welcome screen. Don't forget that this is a creative process, so feel free to choose any styles, font sizes and colors that you think suit the screenshot given in the scenario.
+
+**Hint:** You can follow the same styling patterns and colors used so far in the starter code.
+
+**Step 3: Render the Welcome Screen from the App Component
+
+In this step, you will call the Welcome screen that you created from the App component. This ensures that the Welcome screen is rendered on the app.
+
+**Hint:** Have you imported all the necessary components for rendering?
+
+### Conclusion
+By completing this exercise, you will demonstrate your understanding and ability to create screens within your React Native app. You will demonstrate how to use some of the core components in React Native, such as View and Text while building the Welcome screen for Little Lemon. .
+
+my code:
+```tsx
+export default function() {
+    return(
+        <View
+            style={{
+                justifyContent: 'center',
+                alignItems: 'center',
+            }}>
+            <Text
+                style={{
+                    fontSize: 40,
+                    padding: 40,
+                    textAlign: 'center'
+                }}>
+                Welcome to little lemon
+            </Text>
+            <Text
+                style={{
+                    textAlign: 'center',
+                    fontSize: 22,
+                    padding: 30
+                }}>
+                Little Lemon is a charming neighborhood bistro that serves simple 
+                food and classic cocktails in a lively but casual environment. We would 
+                love to hear more about your experience with us!
+            </Text>
+        </View>
+    );
+};
+```
+
+their example:
+```tsx
+export default function WelcomeScreen() { 
+  return ( 
+    <View style={{ flex: 1 }}> 
+      <Text 
+        style={{ 
+          padding: 40, 
+          fontSize: 30, 
+          color: '#EDEFEE', 
+          textAlign: 'center', 
+        }}> 
+        Welcome to Little Lemon 
+      </Text> 
+      <Text 
+        style={{ 
+          fontSize: 24, 
+          padding: 20, 
+          marginVertical: 8, 
+          color: '#EDEFEE', 
+          textAlign: 'center', 
+        }}> 
+        Little Lemon is a charming neighborhood bistro that serves simple food 
+        and classic cocktails in a lively but casual environment. We would   love 
+        to hear your experience with us! 
+      </Text> 
+    </View> 
+  ); 
+} 
+} 
+```
